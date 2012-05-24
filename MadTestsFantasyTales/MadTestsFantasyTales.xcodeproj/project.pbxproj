@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2FCE976156F002300A6152D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FCE975156F002300A6152D /* UIKit.framework */; };
+		B2FCE978156F002300A6152D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FCE977156F002300A6152D /* Foundation.framework */; };
+		B2FCE97A156F002300A6152D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FCE979156F002300A6152D /* CoreGraphics.framework */; };
+		B2FCE980156F002300A6152D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2FCE97E156F002300A6152D /* InfoPlist.strings */; };
+		B2FCE982156F002300A6152D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FCE981156F002300A6152D /* main.m */; };
+		B2FCE986156F002400A6152D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FCE985156F002400A6152D /* AppDelegate.m */; };
+		B2FCE989156F002400A6152D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2FCE987156F002400A6152D /* MainStoryboard_iPhone.storyboard */; };
+		B2FCE98C156F002400A6152D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2FCE98A156F002400A6152D /* MainStoryboard_iPad.storyboard */; };
+		B2FCE98F156F002400A6152D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FCE98E156F002400A6152D /* ViewController.m */; };
+		B2FCE997156F002400A6152D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FCE996156F002400A6152D /* SenTestingKit.framework */; };
+		B2FCE998156F002400A6152D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FCE975156F002300A6152D /* UIKit.framework */; };
+		B2FCE999156F002400A6152D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FCE977156F002300A6152D /* Foundation.framework */; };
+		B2FCE9A1156F002400A6152D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2FCE99F156F002400A6152D /* InfoPlist.strings */; };
+		B2FCE9A4156F002400A6152D /* MadTestsFantasyTalesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FCE9A3156F002400A6152D /* MadTestsFantasyTalesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2FCE99A156F002400A6152D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2FCE968156F002300A6152D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2FCE970156F002300A6152D;
+			remoteInfo = MadTestsFantasyTales;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2FCE971156F002300A6152D /* MadTestsFantasyTales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadTestsFantasyTales.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2FCE975156F002300A6152D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2FCE977156F002300A6152D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2FCE979156F002300A6152D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2FCE97D156F002300A6152D /* MadTestsFantasyTales-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MadTestsFantasyTales-Info.plist"; sourceTree = "<group>"; };
+		B2FCE97F156F002300A6152D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2FCE981156F002300A6152D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2FCE983156F002300A6152D /* MadTestsFantasyTales-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MadTestsFantasyTales-Prefix.pch"; sourceTree = "<group>"; };
+		B2FCE984156F002300A6152D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2FCE985156F002400A6152D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2FCE988156F002400A6152D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B2FCE98B156F002400A6152D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B2FCE98D156F002400A6152D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2FCE98E156F002400A6152D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2FCE995156F002400A6152D /* MadTestsFantasyTalesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadTestsFantasyTalesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2FCE996156F002400A6152D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B2FCE99E156F002400A6152D /* MadTestsFantasyTalesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MadTestsFantasyTalesTests-Info.plist"; sourceTree = "<group>"; };
+		B2FCE9A0156F002400A6152D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2FCE9A2156F002400A6152D /* MadTestsFantasyTalesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MadTestsFantasyTalesTests.h; sourceTree = "<group>"; };
+		B2FCE9A3156F002400A6152D /* MadTestsFantasyTalesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MadTestsFantasyTalesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2FCE96E156F002300A6152D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FCE976156F002300A6152D /* UIKit.framework in Frameworks */,
+				B2FCE978156F002300A6152D /* Foundation.framework in Frameworks */,
+				B2FCE97A156F002300A6152D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2FCE991156F002400A6152D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FCE997156F002400A6152D /* SenTestingKit.framework in Frameworks */,
+				B2FCE998156F002400A6152D /* UIKit.framework in Frameworks */,
+				B2FCE999156F002400A6152D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2FCE966156F002300A6152D = {
+			isa = PBXGroup;
+			children = (
+				B2FCE97B156F002300A6152D /* MadTestsFantasyTales */,
+				B2FCE99C156F002400A6152D /* MadTestsFantasyTalesTests */,
+				B2FCE974156F002300A6152D /* Frameworks */,
+				B2FCE972156F002300A6152D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2FCE972156F002300A6152D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2FCE971156F002300A6152D /* MadTestsFantasyTales.app */,
+				B2FCE995156F002400A6152D /* MadTestsFantasyTalesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2FCE974156F002300A6152D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2FCE975156F002300A6152D /* UIKit.framework */,
+				B2FCE977156F002300A6152D /* Foundation.framework */,
+				B2FCE979156F002300A6152D /* CoreGraphics.framework */,
+				B2FCE996156F002400A6152D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2FCE97B156F002300A6152D /* MadTestsFantasyTales */ = {
+			isa = PBXGroup;
+			children = (
+				B2FCE984156F002300A6152D /* AppDelegate.h */,
+				B2FCE985156F002400A6152D /* AppDelegate.m */,
+				B2FCE987156F002400A6152D /* MainStoryboard_iPhone.storyboard */,
+				B2FCE98A156F002400A6152D /* MainStoryboard_iPad.storyboard */,
+				B2FCE98D156F002400A6152D /* ViewController.h */,
+				B2FCE98E156F002400A6152D /* ViewController.m */,
+				B2FCE97C156F002300A6152D /* Supporting Files */,
+			);
+			path = MadTestsFantasyTales;
+			sourceTree = "<group>";
+		};
+		B2FCE97C156F002300A6152D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2FCE97D156F002300A6152D /* MadTestsFantasyTales-Info.plist */,
+				B2FCE97E156F002300A6152D /* InfoPlist.strings */,
+				B2FCE981156F002300A6152D /* main.m */,
+				B2FCE983156F002300A6152D /* MadTestsFantasyTales-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2FCE99C156F002400A6152D /* MadTestsFantasyTalesTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2FCE9A2156F002400A6152D /* MadTestsFantasyTalesTests.h */,
+				B2FCE9A3156F002400A6152D /* MadTestsFantasyTalesTests.m */,
+				B2FCE99D156F002400A6152D /* Supporting Files */,
+			);
+			path = MadTestsFantasyTalesTests;
+			sourceTree = "<group>";
+		};
+		B2FCE99D156F002400A6152D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2FCE99E156F002400A6152D /* MadTestsFantasyTalesTests-Info.plist */,
+				B2FCE99F156F002400A6152D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2FCE970156F002300A6152D /* MadTestsFantasyTales */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2FCE9A7156F002400A6152D /* Build configuration list for PBXNativeTarget "MadTestsFantasyTales" */;
+			buildPhases = (
+				B2FCE96D156F002300A6152D /* Sources */,
+				B2FCE96E156F002300A6152D /* Frameworks */,
+				B2FCE96F156F002300A6152D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MadTestsFantasyTales;
+			productName = MadTestsFantasyTales;
+			productReference = B2FCE971156F002300A6152D /* MadTestsFantasyTales.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2FCE994156F002400A6152D /* MadTestsFantasyTalesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2FCE9AA156F002400A6152D /* Build configuration list for PBXNativeTarget "MadTestsFantasyTalesTests" */;
+			buildPhases = (
+				B2FCE990156F002400A6152D /* Sources */,
+				B2FCE991156F002400A6152D /* Frameworks */,
+				B2FCE992156F002400A6152D /* Resources */,
+				B2FCE993156F002400A6152D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2FCE99B156F002400A6152D /* PBXTargetDependency */,
+			);
+			name = MadTestsFantasyTalesTests;
+			productName = MadTestsFantasyTalesTests;
+			productReference = B2FCE995156F002400A6152D /* MadTestsFantasyTalesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2FCE968156F002300A6152D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Developmental Applications";
+			};
+			buildConfigurationList = B2FCE96B156F002300A6152D /* Build configuration list for PBXProject "MadTestsFantasyTales" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2FCE966156F002300A6152D;
+			productRefGroup = B2FCE972156F002300A6152D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2FCE970156F002300A6152D /* MadTestsFantasyTales */,
+				B2FCE994156F002400A6152D /* MadTestsFantasyTalesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2FCE96F156F002300A6152D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FCE980156F002300A6152D /* InfoPlist.strings in Resources */,
+				B2FCE989156F002400A6152D /* MainStoryboard_iPhone.storyboard in Resources */,
+				B2FCE98C156F002400A6152D /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2FCE992156F002400A6152D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FCE9A1156F002400A6152D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2FCE993156F002400A6152D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2FCE96D156F002300A6152D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FCE982156F002300A6152D /* main.m in Sources */,
+				B2FCE986156F002400A6152D /* AppDelegate.m in Sources */,
+				B2FCE98F156F002400A6152D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2FCE990156F002400A6152D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FCE9A4156F002400A6152D /* MadTestsFantasyTalesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2FCE99B156F002400A6152D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2FCE970156F002300A6152D /* MadTestsFantasyTales */;
+			targetProxy = B2FCE99A156F002400A6152D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2FCE97E156F002300A6152D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2FCE97F156F002300A6152D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2FCE987156F002400A6152D /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2FCE988156F002400A6152D /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B2FCE98A156F002400A6152D /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2FCE98B156F002400A6152D /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B2FCE99F156F002400A6152D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2FCE9A0156F002400A6152D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2FCE9A5156F002400A6152D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2FCE9A6156F002400A6152D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2FCE9A8156F002400A6152D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MadTestsFantasyTales/MadTestsFantasyTales-Prefix.pch";
+				INFOPLIST_FILE = "MadTestsFantasyTales/MadTestsFantasyTales-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2FCE9A9156F002400A6152D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MadTestsFantasyTales/MadTestsFantasyTales-Prefix.pch";
+				INFOPLIST_FILE = "MadTestsFantasyTales/MadTestsFantasyTales-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B2FCE9AB156F002400A6152D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MadTestsFantasyTales.app/MadTestsFantasyTales";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MadTestsFantasyTales/MadTestsFantasyTales-Prefix.pch";
+				INFOPLIST_FILE = "MadTestsFantasyTalesTests/MadTestsFantasyTalesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B2FCE9AC156F002400A6152D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MadTestsFantasyTales.app/MadTestsFantasyTales";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MadTestsFantasyTales/MadTestsFantasyTales-Prefix.pch";
+				INFOPLIST_FILE = "MadTestsFantasyTalesTests/MadTestsFantasyTalesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2FCE96B156F002300A6152D /* Build configuration list for PBXProject "MadTestsFantasyTales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2FCE9A5156F002400A6152D /* Debug */,
+				B2FCE9A6156F002400A6152D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2FCE9A7156F002400A6152D /* Build configuration list for PBXNativeTarget "MadTestsFantasyTales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2FCE9A8156F002400A6152D /* Debug */,
+				B2FCE9A9156F002400A6152D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2FCE9AA156F002400A6152D /* Build configuration list for PBXNativeTarget "MadTestsFantasyTalesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2FCE9AB156F002400A6152D /* Debug */,
+				B2FCE9AC156F002400A6152D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2FCE968156F002300A6152D /* Project object */;
+}
